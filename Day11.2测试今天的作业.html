@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>继续练习</title>
+    </head>
+    <body>
+        <h1>首先测试HTML文件的基本结构</h1>
+        <h2>然后再测试标题</h2>
+        <p>这一部分会测试下<strong>加粗文字</strong><em>斜体文字</em></p>
+        <p>然后这个位置也测试一下换行，但是感觉学的另外两个div和span好像也可以实现<br>这两个功能</p>
+        <p><hr>同时也在这个位置测试一下水平线的的效果</p>
+        <p>接下来测试下插入图片和链接的效果</p>
+        <img src="C:\Users\10263\Desktop\2024\精斗云产品反馈记录\协同小程序\微信图片_20250101000837.png"
+        alt="测试的行政版的小程序"
+        <a href="https://service.jdy">点击这里</a>
+        <h3>这里再测试下语义化标签</h3>
+        <p>
+            <header>网页头部</header>
+            <nav>导航栏</nav>
+            <main>主要内容</main>
+            <footer>底部</footer>
+            <article>文章</article>
+            <section>区域</section>
+            <aside>侧边栏</aside>
+        </p>
+        <h4>这里再测试下有序表格和无序表格，第一个是无序列表，有序列表还学了一个新的，哈哈哈哈</h4>
+        <ul>
+            <li>苹果</li>
+            <li>香蕉</li>
+            <li>橙子</li>
+        </ul>
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ol>
+          <ol start="50">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ol>
+          <h2>这里再标注下一些常见的错误,这里尝试用div和span</h2>
+          <div class="section">
+            <h2><span>标签闭合错误</span></h2>
+            <div class="content">
+                忘记关闭标签,如 <code>&lt;div&gt;</code> 没有对应的 <code>&lt;/div&gt;</code><br>
+                标签嵌套顺序错误,如 <code>&lt;p&gt;&lt;span&gt;&lt;/p&gt;&lt;/span&gt;</code><br>
+                自闭合标签使用错误,如 <code>&lt;img&gt;</code> 应该写成 <code>&lt; img /&gt;</code>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2><span>属性语法错误</span></h2>
+            <div class="content">
+                属性值缺少引号,如 <code>&lt;div class=container&gt;</code><br>
+                属性名重复使用<br>
+                布尔属性语法错误,如 <code>disabled="false"</code>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2><span>标签使用不当</span></h2>
+            <div class="content">
+                在不允许的位置使用某些标签,如 <code>&lt;div&gt;</code> 内直接放 <code>&lt;tr&gt;</code><br>
+                特定标签的父子关系错误,如 <code>&lt;ul&gt;</code> 下直接放 <code>&lt;div&gt;</code><br>
+                使用已废弃的标签或属性
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2><span>ID 和类名错误</span></h2>
+            <div class="content">
+                ID 重复使用(ID 必须唯一)<br>
+                类名或 ID 命名不规范,如使用特殊字符
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2><span>文档结构错误</span></h2>
+            <div class="content">
+                缺少必要的文档声明 <code>&lt;!DOCTYPE html&gt;</code><br>
+                <code>&lt;head&gt;</code> 或 <code>&lt;body&gt;</code> 标签缺失或位置错误<br>
+                字符编码设置错误或缺失
+            </div>
+        </div>
+    </body>
+    
+</html>
